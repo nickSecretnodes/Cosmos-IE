@@ -91,8 +91,8 @@ func setConfig(chain string) {
 		config.SetBech32PrefixForValidator(common.Bech32PrefixValAddr, common.Bech32PrefixValPub)
 		config.SetBech32PrefixForConsensusNode(common.Bech32PrefixConsAddr, common.Bech32PrefixConsPub)
 		config.Seal()
-	case "rizon":
-		Bech32MainPrefix := "rizon"
+	case "secret":
+		Bech32MainPrefix := "secret"
 		PrefixValidator := "val"
 		PrefixConsensus := "cons"
 		PrefixPublic := "pub"

@@ -137,7 +137,7 @@ func getDenomList(chain string) []string {
 		dList = []string{"uiov"}
 	case "certik":
 		dList = []string{"uctk"}
-	case "rizon":
+	case "secret":
 		dList = []string{"uatolo"}
 	}
 
